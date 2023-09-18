@@ -12,7 +12,7 @@
 // B. Exercício de Escrita de Código
 // 1.
 
-let idade = prompt("Qual sua idade?");
+let idade = Number(prompt("Qual sua idade?"));
 
 if (idade >= 18){
     console.log("Você é maior de idade");
@@ -21,7 +21,7 @@ if (idade >= 18){
 }
 
 // 2.
-let turno = prompt("Qual turno você estuda? Digite M para MANHÃ, T para TARDE ou N para NOITE");
+let turno = prompt("Qual turno você estuda? Digite M para MANHÃ, T para TARDE ou N para NOITE").toUpperCase()
 
 /* if (turno === 'M'){
     console.log('Bom dia!');
